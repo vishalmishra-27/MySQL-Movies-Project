@@ -23,7 +23,7 @@ The following tables are created:
 ## Database Schema
 Here is an entity-relationship (ER) diagram showing the relationships between the various tables used in this project:
 
-![ER Diagram](path/to/your/image.png)
+![ER Diagram](https://github.com/vishalmishra-27/MySQL-Movies-Project/blob/main/EER.png)
 
 ## SQL Queries
 The project includes SQL queries to:
