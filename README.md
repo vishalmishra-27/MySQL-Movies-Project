@@ -20,6 +20,10 @@ The following tables are created:
 - `movieDirection`: Maps directors to the movies they directed.
 - `movieGenres`: Maps genres to movies.
 
+## Database Schema
+Here is an entity-relationship (ER) diagram showing the relationships between the various tables used in this project:
+
+![ER Diagram](path/to/your/image.png)
 
 ## SQL Queries
 The project includes SQL queries to:
