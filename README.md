@@ -20,8 +20,6 @@ The following tables are created:
 - `movieDirection`: Maps directors to the movies they directed.
 - `movieGenres`: Maps genres to movies.
 
-### ER Diagram (optional)
-![ER Diagram](path_to_your_diagram.png)
 
 ## SQL Queries
 The project includes SQL queries to:
@@ -35,6 +33,6 @@ The project includes SQL queries to:
 ## Installation and Usage
 To use this project:
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/MySQL-Movie-Database-Project.git
+1. Clone this repository
+2. Import the SQL file into your MySQL server
+3. Execute the SQL queries in your MySQL Workbench or preferred environment.
