@@ -317,7 +317,7 @@ inner join movie on moviecast.movId = movie.movId
 where movie.movTitle = "Annie Hall";
 
 
--- Query 3 Find Movies Directed by "James Cameron" and Featuring Actors from "Eyes Wide Shut"
+-- Query 3 List Directors and Movies Featuring Actors from "Eyes Wide Shut"
 SELECT 
     director.dirFname as "Director First Name", director.dirLname as "Director Last Name",
     movie.movTitle as "Movie"
@@ -358,7 +358,7 @@ where actor.actID not in (
 order by movie.movYear;
 
 
--- Query 5 List Actors Who Acted in the Movie "Inception"
+-- Query 5 List Movies, Release Years, and Their Genres
 select 
 	movie.movTitle as "Movie Title", movie.movYear as "Release Year",
     genres.genTitle as "Genre"
@@ -367,7 +367,7 @@ inner join moviegenres on movie.movId = moviegenres.movId
 inner join genres on moviegenres.genId = genres.genId;
 
 
--- Query 6 List Movies Along with Their Genres and Directors
+-- Query 6 List Movies, Release Years, Genres, and Directors
 select
 	movie.movTitle as "Movie", movie.movYear as "Release Year",
     genres.genTitle as "Genre",
